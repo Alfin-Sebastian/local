@@ -16,13 +16,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['user'] = $user;
             switch ($user['role']) {
                 case 'admin':
-                    header("Location: admin_dashboard.php");
+                    header("Location: index.php");
                     break;
                 case 'provider':
-                    header("Location: provider_dashboard.php");
+                    header("Location: index.php");
                     break;
                 case 'customer':
-                    header("Location: customer_dashboard.php");
+                    header("Location: index.php");
                     break;
             }
             exit;
