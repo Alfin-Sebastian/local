@@ -295,6 +295,9 @@ $bookings_count = $conn->query("SELECT COUNT(*) as count FROM bookings")->fetch_
             </div>
             
             <div class="nav-menu">
+                <a href="index.php" class="nav-item">
+                    <i class="fas fa-home"></i> Home
+                </a>
                 <a href="#" class="nav-item active">
                     <i class="fas fa-tachometer-alt"></i> Dashboard
                 </a>
@@ -321,11 +324,8 @@ $bookings_count = $conn->query("SELECT COUNT(*) as count FROM bookings")->fetch_
                 </a>
                 <a href="logout.php" class="nav-item">
                     <i class="fas fa-sign-out-alt"></i> Logout
-</a>
-<a href="index.php" class="nav-item">
-                    <i class="fas fa-sign-out-alt"></i> Home
-
                 </a>
+
             </div>
         </div>
 
