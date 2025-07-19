@@ -397,7 +397,6 @@ $bookings_query = $conn->query("
                 <a href="logout.php" class="nav-item">
                     <i class="fas fa-sign-out-alt"></i> Logout
                 </a>
-         </a>
 
             </div>
         </div>
